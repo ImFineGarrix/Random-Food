@@ -1,0 +1,552 @@
+{
+  "menus": [
+    {
+      "th_name": "สปาเก็ตตี้คาโบนาร่าแฮม",
+      "en_name": "SpaghettiCarbonaraHam",
+      "imgURL": "/images/main/SpaghettiCarbonaraHam.jpg",
+      "cal": 741,
+      "type": "main",
+      "id": 1
+    },
+    {
+      "th_name": "ข้าวไข่ข้นคอหมูทอดจิ้มแจ่ว",
+      "en_name": "CreamyOmeletwithFiredPorkNeckwithThaiSpicySauce",
+      "imgURL": "/images/main/CreamyOmeletwithFiredPorkNeckwithThaiSpicySauce.jpg",
+      "cal": 630,
+      "type": "main",
+      "id": 2
+    },
+    {
+      "th_name": "มาม่าผัดขี้เมาหมูสามชั้น",
+      "en_name": "StirFriedSpicyNoodlewithHerbs",
+      "imgURL": "/images/main/StirFriedSpicyNoodlewithHerbs.jpg",
+      "cal": 578,
+      "type": "main",
+      "id": 3
+    },
+    {
+      "th_name": "ข้าวไก่กระเทียม",
+      "en_name": "GarlicChickenRice",
+      "imgURL": "/images/main/GarlicChickenRice.jpg",
+      "cal": 550,
+      "type": "main",
+      "id": 4
+    },
+    {
+      "th_name": "ข้าวกระเพราปลาหมึกไข่ดาว",
+      "en_name": "FriedSquidwithBasilwithFriedEgg",
+      "imgURL": "/images/main/FriedSquidwithBasilwithFriedEgg.jpg",
+      "cal": 660,
+      "type": "main",
+      "id": 5
+    },
+    {
+      "th_name": "ข้าวต้มกุ้ง",
+      "en_name": "RiceSoupwithShrimp",
+      "imgURL": "/images/main/RiceSoupwithShrimp.jpg",
+      "cal": 180,
+      "type": "main",
+      "id": 6
+    },
+    {
+      "th_name": "ข้าวคะน้าหมูกรอบ",
+      "en_name": "Stir-FriedKaleVegetablewithCrispyPorkOverRice",
+      "imgURL": "/images/main/StirFriedKaleVegetablewithCrispyPorkOverRice.jpg",
+      "cal": 753,
+      "type": "main",
+      "id": 7
+    },
+    {
+      "th_name": "วุ้นเส้นผัดขี้เมาไส้กรอก",
+      "en_name": "StirFriedVermicelliwithSpicySeafood",
+      "imgURL": "/images/main/StirFriedVermicelliwithSpicySeafood.jpg",
+      "cal": 874,
+      "type": "main",
+      "id": 8
+    },
+    {
+      "th_name": "ข้าวหมูสามชั้นทอดน้ำปลา",
+      "en_name": "FriedStreakyPorkwithFishSauce",
+      "imgURL": "/images/main/FriedStreakyPorkwithFishSauce.jpg",
+      "cal": 335,
+      "type": "main",
+      "id": 9
+    },
+    {
+      "th_name": "อเมริกัน เบรคฟัสต์",
+      "en_name": "American Breakfast",
+      "imgURL": "/images/main/AmericanBreakfast.jpg",
+      "cal": 1510,
+      "type": "main",
+      "id": 10
+    },
+    {
+      "th_name": "ผัดกะเพราหมู",
+      "en_name": "Stir Fried Basil with Pork",
+      "imgURL": "/images/side/StirFriedBasilwithPork.jpg",
+      "cal": 610,
+      "type": "side",
+      "id": 11
+    },
+    {
+      "th_name": "ผัดกะเพราไก่",
+      "en_name": "Stir Fried Basil with Chicken",
+      "imgURL": "/images/side/StirFriedBasilwithChicken.jpg",
+      "cal": 400,
+      "type": "side",
+      "id": 12
+    },
+    {
+      "th_name": "หมูทอดกระเทียม",
+      "en_name": "Fried Pork with Garlic",
+      "imgURL": "/images/side/FriedPorkwithGarlic.jpg",
+      "cal": 166,
+      "type": "side",
+      "id": 13
+    },
+    {
+      "th_name": "ไก่ทอดกระเทียม",
+      "en_name": "Fried Chicken with Garlic",
+      "imgURL": "/images/side/FriedChickenwithGarlic.jpg",
+      "cal": 222,
+      "type": "side",
+      "id": 14
+    },
+    {
+      "th_name": "หมูผัดคะน้า",
+      "en_name": "Stir Fried Kale with Pork",
+      "imgURL": "/images/side/StirFriedKalewithPork.jpg",
+      "cal": 520,
+      "type": "side",
+      "id": 15
+    },
+    {
+      "th_name": "ไก่ผัดคะน้า",
+      "en_name": "Stir Fried Kale with Chicken",
+      "imgURL": "/images/side/StirFriedKalewithChicken.jpg",
+      "cal": 215,
+      "type": "side",
+      "id": 16
+    },
+    {
+      "th_name": "กะหล่ำปลีผัดน้ำปลา",
+      "en_name": "Fried Cabbage with Fish Sauce",
+      "imgURL": "/images/side/FriedCabbagewithFishSauce.jpg",
+      "cal": 90,
+      "type": "side",
+      "id": 17
+    },
+    {
+      "th_name": "หมูผัดพริกกระเทียม,",
+      "en_name": "Stir Fried Pork with Garlic and Chilies",
+      "imgURL": "/images/side/StirFriedPorkwithGarlicandChilies.jpg",
+      "cal": 495,
+      "type": "side",
+      "id": 18
+    },
+    {
+      "th_name": "ไก่ผัดพริกกระเทียม",
+      "en_name": "Stir Fried Chicken with Garlic and Chilies",
+      "imgURL": "/images/side/StirFriedChickenwithGarlicandChilies.jpg",
+      "cal": 480,
+      "type": "side",
+      "id": 19
+    },
+    {
+      "th_name": "เต้าหูทรงเครื่อง",
+      "en_name": "Deep Fried Tofu with Gravy",
+      "imgURL": "/images/side/DeepFriedTofuwithGravy.jpg",
+      "cal": 300,
+      "type": "side",
+      "id": 20
+    },
+    {
+      "th_name": "เกี้ยวทอด",
+      "en_name": "Fried Dumpling",
+      "imgURL": "/images/snack/FriedDumpling.jpg",
+      "cal": 235,
+      "type": "snack",
+      "id": 21
+    },
+    {
+      "th_name": "เกี๊ยวหมูทอด",
+      "en_name": "Fried Dumpling with Pork",
+      "imgURL": "/images/snack/FriedDumplingwithPork.jpg",
+      "cal": 254,
+      "type": "snack",
+      "id": 22
+    },
+    {
+      "th_name": "เกี๊ยวไส้กรอกทอด",
+      "en_name": "Fried Dumpling with Sausage",
+      "imgURL": "/images/snack/FriedDumplingwithSausage.jpg",
+      "cal": 247,
+      "type": "snack",
+      "id": 23
+    },
+    {
+      "th_name": "ไข่กระทะ",
+      "en_name": "Scrambled Egg",
+      "imgURL": "/images/snack/ScrambledEgg.jpg",
+      "cal": 253,
+      "type": "snack",
+      "id": 24
+    },
+    {
+      "th_name": "นักเก็ต",
+      "en_name": "Nuggets",
+      "imgURL": "/images/snack/Nuggets.jpg",
+      "cal": 295,
+      "type": "snack",
+      "id": 25
+    },
+    {
+      "th_name": "ไก่คาราเกะ",
+      "en_name": "Chicken Karaage",
+      "imgURL": "/images/snack/ChickenKaraage.jpg",
+      "cal": 440,
+      "type": "snack",
+      "id": 26
+    },
+    {
+      "th_name": "ไก่ป๊อป",
+      "en_name": "Chicken pop",
+      "imgURL": "/images/snack/Chickenpop.jpg",
+      "cal": 351,
+      "type": "snack",
+      "id": 27
+    },
+    {
+      "th_name": "ไส้กรอกทอด",
+      "en_name": "Stir Fried Sausage",
+      "imgURL": "/images/snack/StirFriedSausage.jpg",
+      "cal": 280,
+      "type": "snack",
+      "id": 28
+    },
+    {
+      "th_name": "ไส้กรอกผัดซอสอบชีส",
+      "en_name": "Stir Fried Sausage with Baked Cheese",
+      "imgURL": "/images/snack/StirFriedSausagewithBakedCheese.jpg",
+      "cal": 368,
+      "type": "snack",
+      "id": 29
+    },
+    {
+      "th_name": "เฟรนช์ฟราย",
+      "en_name": "French Fries",
+      "imgURL": "/images/snack/FrenchFries.jpg",
+      "cal": 311,
+      "type": "snack",
+      "id": 30
+    },
+    {
+      "th_name": "บราวนี่",
+      "en_name": "Brownie",
+      "imgURL": "/images/dessert/Brownie.jpg",
+      "cal": 466,
+      "type": "dessert",
+      "id": 31
+    },
+    {
+      "th_name": "ชีสเค้กหน้าไหม้",
+      "en_name": "Basque Burnt Cheesecake",
+      "imgURL": "/images/dessert/BasqueBurntCheesecake.png",
+      "cal": 347,
+      "type": "dessert",
+      "id": 32
+    },
+    {
+      "th_name": "สตรอเบอร์รี่ชีสพาย",
+      "en_name": "StrawberryCheesepie",
+      "imgURL": "/images/dessert/StrawberryCheesepie.jpg",
+      "cal": 510,
+      "type": "dessert",
+      "id": 33
+    },
+    {
+      "th_name": "บานอฟฟี่",
+      "en_name": "Banoffee",
+      "imgURL": "/images/dessert/Banoffee.jpg",
+      "cal": 436,
+      "type": "dessert",
+      "id": 34
+    },
+    {
+      "th_name": "ฮันนี่โทส",
+      "en_name": "Honey Toast",
+      "imgURL": "/images/dessert/HoneyToast.jpg",
+      "cal": 136,
+      "type": "dessert",
+      "id": 35
+    },
+    {
+      "th_name": "สตรอเบอร์รี่โทส",
+      "en_name": "Strawberry Toast",
+      "imgURL": "/images/dessert/StrawberryToast.jpg",
+      "cal": 131,
+      "type": "dessert",
+      "id": 36
+    },
+    {
+      "th_name": "ปังเย็นนมคาราเมล",
+      "en_name": "Shaved Ice with bread, Caramel",
+      "imgURL": "/images/dessert/ShavedIcewithbreadCaramel.jpg",
+      "cal": 118,
+      "type": "dessert",
+      "id": 37
+    },
+    {
+      "th_name": "ปังเย็นช็อกโกแลต",
+      "en_name": "Shaved Ice with bread, Choolate",
+      "imgURL": "/images/dessert/ShavedIcewithbreadChocolate.jpg",
+      "cal": 118,
+      "type": "dessert",
+      "id": 38
+    },
+    {
+      "th_name": "ปังเย็นชาเขียว",
+      "en_name": "Shaved Ive with bread, Green Tea",
+      "imgURL": "/images/dessert/ShavedIvewithbreadGreenTea.jpg",
+      "cal": 118,
+      "type": "dessert",
+      "id": 39
+    },
+    {
+      "th_name": "ปังเย็นนมสด",
+      "en_name": "Shaved Ice with bread, Whole Milk",
+      "imgURL": "/images/dessert/ShavedIcewithbreadWholeMilk.jpg",
+      "cal": 118,
+      "type": "dessert",
+      "id": 40
+    },
+    {
+      "th_name": "ชาดำเย็น",
+      "en_name": "Cold Black Tea",
+      "imgURL": "/images/drink/ColdBlackTea.jpg",
+      "cal": 250,
+      "type": "drink",
+      "id": 41
+    },
+    {
+      "th_name": "ชามะนาวเย็น",
+      "en_name": "ColdLemonTea",
+      "imgURL": "/images/drink/ColdLemonTea.jpg",
+      "cal": 100,
+      "type": "drink",
+      "id": 42
+    },
+    {
+      "th_name": "ชาเขียวเย็น",
+      "en_name": "Cold Grenn Tea",
+      "imgURL": "/images/drink/ColdGrennTea.jpg",
+      "cal": 320,
+      "type": "drink",
+      "id": 43
+    },
+    {
+      "th_name": "นมน้ำผึ้งเย็น",
+      "en_name": "Cold Honey Milk",
+      "imgURL": "/images/drink/ColdHoneyMilk.jpg",
+      "cal": 178,
+      "type": "drink",
+      "id": 44
+    },
+    {
+      "th_name": "นมโอริโอ้",
+      "en_name": "Oreo Milk",
+      "imgURL": "/images/drink/OreoMilk.jpg",
+      "cal": 210,
+      "type": "drink",
+      "id": 45
+    },
+    {
+      "th_name": "ช็อกโกแลตเย็น",
+      "en_name": "Cold Chocolate",
+      "imgURL": "/images/drink/ColdChocolate.jpg",
+      "cal": 120,
+      "type": "drink",
+      "id": 46
+    },
+    {
+      "th_name": "น้ำส้มคั้นสด",
+      "en_name": "Orange Crush",
+      "imgURL": "/images/drink/OrangeCrush.jpg",
+      "cal": 45,
+      "type": "drink",
+      "id": 47
+    },
+    {
+      "th_name": "บลูเลม่อนโซดา",
+      "en_name": "Blue Lemon Soda",
+      "imgURL": "/images/drink/BlueLemonSoda.jpg",
+      "cal": 130,
+      "type": "drink",
+      "id": 48
+    },
+    {
+      "th_name": "โค้ก",
+      "en_name": "Coke",
+      "imgURL": "/images/drink/coke.jpg",
+      "cal": 400,
+      "type": "drink",
+      "id": 49
+    },
+    {
+      "th_name": "สไปรท์",
+      "en_name": "Sprite",
+      "imgURL": "/images/drink/ColdBlackTea.jpg",
+      "cal": 160,
+      "type": "drink",
+      "id": 50
+    },
+    {
+      "th_name": "ไก่โอ๊ก",
+      "en_name": "Oakk",
+      "imgURL": "",
+      "cal": 120,
+      "type": "side",
+      "id": 51
+    },
+    {
+      "th_name": "โกโก้",
+      "en_name": "No english name",
+      "imgURL": "",
+      "type": "drink",
+      "id": 52
+    },
+    {
+      "th_name": "ฮอตพอท",
+      "en_name": "Hot pot",
+      "imgURL": "",
+      "cal": 500,
+      "type": "main",
+      "id": 53
+    }
+  ],
+  "histories": [
+    {
+      "th_name": "ข้าวกระเพราปลาหมึกไข่ดาว",
+      "en_name": "FriedSquidwithBasilwithFriedEgg",
+      "imgURL": "/images/main/FriedSquidwithBasilwithFriedEgg.jpg",
+      "cal": 660,
+      "type": "main",
+      "id": 1
+    },
+    {
+      "th_name": "สปาเก็ตตี้คาโบนาร่าแฮม",
+      "en_name": "SpaghettiCarbonaraHam",
+      "imgURL": "/images/main/SpaghettiCarbonaraHam.jpg",
+      "cal": 741,
+      "type": "main",
+      "id": 2
+    },
+    {
+      "th_name": "บานอฟฟี่",
+      "en_name": "Banoffee",
+      "imgURL": "/images/dessert/Banoffee.jpg",
+      "cal": 436,
+      "type": "dessert",
+      "id": 3
+    },
+    {
+      "th_name": "หมูทอดกระเทียม",
+      "en_name": "Fried Pork with Garlic",
+      "imgURL": "/images/side/FriedPorkwithGarlic.jpg",
+      "cal": 166,
+      "type": "side",
+      "id": 4
+    },
+    {
+      "th_name": "เฟรนช์ฟราย",
+      "en_name": "French Fries",
+      "imgURL": "/images/snack/FrenchFries.jpg",
+      "cal": 311,
+      "type": "snack",
+      "id": 5
+    },
+    {
+      "th_name": "ชามะนาวเย็น",
+      "en_name": "ColdLemonTea",
+      "imgURL": "/images/drink/ColdLemonTea.jpg",
+      "cal": 100,
+      "type": "drink",
+      "id": 6
+    },
+    {
+      "th_name": "บานอฟฟี่",
+      "en_name": "Banoffee",
+      "imgURL": "/images/dessert/Banoffee.jpg",
+      "cal": 436,
+      "type": "dessert",
+      "id": 7
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "stdId": "63130500005",
+      "fname": "Kanjanaporn",
+      "lname": "Chuenmaneerat",
+      "img": "/images/profile/kanjanaporn.png",
+      "role": "AboutAs, Component MemberProfile",
+      "socials": {
+        "ig": "https://www.instagram.com/yokkkkkan/",
+        "fb": "https://www.facebook.com/kanjanaporn.ykcbnpbtw",
+        "github": "https://github.com/VioletKan"
+      }
+    },
+    {
+      "id": 2,
+      "stdId": "63130500009",
+      "fname": "Jakarin",
+      "lname": "Chaibubpa",
+      "img": "/images/profile/jakarin.jpg",
+      "role": "function addFood, Component AddFoodForm, db.json",
+      "socials": {
+        "ig": "https://www.instagram.com/isthebedbest/",
+        "fb": "https://www.facebook.com/profile.php?id=100005300107229",
+        "github": "https://github.com/jakarin-b"
+      }
+    },
+    {
+      "id": 3,
+      "stdId": "63130500020",
+      "fname": "Chanon",
+      "lname": "Rugdee",
+      "img": "/images/profile/chanon.jpg",
+      "role": "UI design, Random food, History",
+      "socials": {
+        "ig": "https://www.instagram.com/__iimp_/",
+        "fb": "https://www.facebook.com/chanon.rugkee",
+        "github": "https://github.com/ImFineGarrix"
+      }
+    },
+    {
+      "id": 4,
+      "stdId": "63130500026",
+      "fname": "Chotiwit",
+      "lname": "Souyan",
+      "img": "/images/profile/chotiwit.jpg",
+      "role": "Router, Separate Components,Menu, MenuList",
+      "socials": {
+        "ig": "https://www.instagram.com/ctwsynut/",
+        "fb": "https://www.facebook.com/chotiwit.souyan",
+        "github": "https://github.com/xbklyn"
+      }
+    },
+    {
+      "id": 5,
+      "stdId": "63130500008",
+      "fname": "Jariyawadee",
+      "lname": "Tamsri",
+      "img": "/images/profile/jariyawadee.jpg",
+      "role": "About Us, db.json, MemberProfile",
+      "socials": {
+        "ig": "https://www.instagram.com/pam._my._pam._/",
+        "fb": "https://web.facebook.com/jariyawadee.pam/",
+        "github": "https://github.com/jariyawa"
+      }
+    }
+  ]
+}
