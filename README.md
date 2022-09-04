@@ -16,13 +16,11 @@
 
 | Part | Name              |Navigate to|
 |:---:|-------------------|--------------|
-|  1  |What's in this web|[Navigate me!](#whats-in-this-web)|
-|  2  |Home page|[Navigate me!](#home-page)|
-|  3  |List Page|[Navigate me!](#list-page)|
-|  4  |About us Page|[Navigate me!](#about-us)|
-|  5  |Components|[Navigate me!](#components-expaination) |
-|  6  |Others|[Navigate mw!](#others) |
-|  7  |Learning Otcome|[Navigate mw!](#learning-outcomes)
+|  1  |What's in this web|[Navigate me!](#whats-in-this-web) |
+|  2  |Home page|[Navigate me!](#home-page) |
+|  3  |Menu Page|[Navigate me!](#menu-page-1) |
+|  4  |About us Page|[Navigate me!](#about-us-1) |
+|  5  |Components|[Navigate me!](#components-explanation) |
 
 <br>
 
@@ -30,43 +28,96 @@
 
 ### ในเว็บไซต์ของเราประกอบไปด้วย 3 หน้าหลัก ๆ
 
-- ### [Home page](#home-page)
-- ### [List page](#list-page)
-- ### [About us](#about-us)
+- ### [Home page](#home-page-1)
+- ### [Menu page](#menu-page-1)
+- ### [About us](#about-us-1)
 
 # Home page
 
-#### This is section for home page 
+![This is picture of homepage](./public/images/protptype/homepage.JPG)
 
-# List page
+หน้า Home page เป็นหน้าหลัก โดยมีจะมีชื่อ Website, Navbar, Random food และ History 
 
-#### This is section for list page 
+
+![This is picture of random food](./public/images/protptype/random-food.JPG)
+- Random food  
+จะเป็นการสุ่มอาหารตาม Type ที่กำหนดไว้ให้แล้ว โดยจะมี Main,  Side, Dessert, Drink, Snack และ All(Random food) พอ User ทำการกดปุ่มการ Random Food มีการสุ่มอาหารจาก Menu list ที่จาก API มีไว้ให้ และทำการสุ่มออกมา เป็นรูปภาพ ชื่อ และแคลลอรี่
+
+![This is picture of history](./public/images/protptype/history.JPG)
+- History
+จะเป็นการเก็บ History ของเมนูการสุ่มอาหาร และทาง User สามารถลบรายการที่ไม่ต้องการออกไปได้โดยการกด X ทางด้านขวามือ และยังมีระบบที่บอกว่า User สุ่ม Type ของอาหารไปแล้วกี่อย่าง โดยจะนับจาก Type ใน History
 
 <br>
 
-# About us 
 
-#### This is section for about us page 
+# Menu Page 
+
+หน้า Menu page เป็นหน้าที่จะแสดง List menu อาหารที่สามารถจะถูกสุ่มออกมาได้ โดยใน List นี้จะประกอบด้วย list ที่มีให้อยู่แล้ว 50 เมนูกับ menu ที่ User เพิ่มเข้ามาเอง 
+โดย User สามารถเพิ่ม Menu เข้าไปใน List ได้ด้วตนเองโดยกดปุ่ม 'Don't have your food? Add here!' ที่ด้านบนซ้ายมือ
+
+![This is picture of menu list part](./public/images/protptype/menu-list.PNG)
+
+พอกดแล้วจะมีหน้า Add food แสดงออกมาให้ใช้งานโดยให้ User ใส่ชื่อภาษาไทย,ภาษาอังกฤษ,แคลลอรี่ และประเภทของ Menu ที่ต้องการจะเพิ่มได้
+
+![This is picture of add food part](./public/images/protptype/add-food.PNG)
+
+โดยที่จะต้องบังคับใส่ก็คือชื่อภาษาไทยกับ Type ของอาหาร ถ้าไม่ได้ใส่ก็จะมีการแจ้งเตือนขึ้น
+
+![This is picture of alert thai part](./public/images/protptype/alert-thai.PNG)
+![This is picture of alert eng part](./public/images/protptype/alert-en.PNG)
+
+พอ Add เสร็จแล้ว Menu ใหม่ก็จะถูกเพิ่มที่ส่วนล่างสุดของ Menu list
+
+![This is picture of new menu part](./public/images/protptype/new-menu.PNG)
+
+<br> 
+
+
+# About us
+
+![This is picture of about us](./public/images/protptype/about-us.JPG)
+
+หน้า About us เป็นหน้าที่บอกถึงว่ามีสมาชิกภายในทีมมีใครบ้าง ชื่ออะไร ทำอะไรบ้างภายใน Website แล้วก็ยังมี Social media ของสมาชิกแต่ละคน
 
 <br>
 
 # Components Explanation
 
-#### This is section for component explanation page 
+- AddFoodForm
+เป็น Component ที่ใช้ในส่วนของ addFood ในหน้า Menu โดยจะสร้าง Form และปุ่ม Add เพื่อส่งข้อมูลไปใช้ Add function ในหน้า Menu ต่อไป
+
+
+- BaseNavbar
+เป็น Component ที่ใช้กับ router-link ที่คอยเปลี่ยนหน้าแสดงผลของ Home, Menu, AboutUs 
+
+
+- History
+เป็น Component ที่แสดงผลกับ History ของ Meun ที่ถูกสุ่มออกมา เพื่อนำไปใช้กับหน้า Home 
+
+
+- MemberProfile
+เป็น Component ที่ใช้แสดงข้อมูลต่างๆของ ผู้สร้าง web ขึ้นมาในหน้า AboutUs
+
+
+- MenuList
+เป็น Component ที่แสดงผลกับ List ของ Meun ที่มีอยู่ในตอนนี้ เพื่อนำไปใช้กับหน้า Menu 
+
+
+- RandomFood
+เป็น component ที่แสดงผลในส่วนของการสุ่ม จะแสดงผลในหน้า Home
+
 
 <br>
 
-# Others 
+# Others
 
-#### This is section for others  
+- This project is coded by all of our contributors using Live Share Extension on VSCode, so don't worry if you see committed by only some of us.
 
-<br>
+# Learning Outcome
 
-# Learning Outcomes
-
-#### This is section for learnnig outcomes 
-
-<br>
+- เรียนรู้ในการทำงานเป็นทีม
+- รู้จักการบริหารงาน และเวลาให้เหมาะสม
+- เรียนรู้ในการใช้ Library ต่างๆมากขึ้น
 
 ### Group member
 
